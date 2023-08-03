@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100vw;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 0 2.5px;
+}
+.box{
+   width:33vw;
+   background: chocolate;
+   border: 1px solid red;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 3px 1px;
+   padding: 0 1.5px;
+   border-radius:4px;
+}
+.box .full{
+    width:100%;
+}
+.box .child{
+    width:32.3%;
+    background-color: rgb(212, 190, 157);
+    text-align: center;
+    border-radius: 2px;
+    margin: 2px 1px;
+}
+.box .child1{
+    width:24.5%;
+    background-color: rgb(212, 190, 157);
+    text-align: center;
+    border-radius: 2px;
+    margin: 2px 1px;
+}
+.box .child2{
+    width:19.5%;
+    background-color: rgb(212, 190, 157);
+    text-align: center;
+    border-radius: 2px;
+    margin: 2px 1px;
+}
+.box1{
+    width:24.5vw;
+    background: chocolate;
+    text-align: center;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3px 1px;
+    border-radius:4px;
+ }
+ .box2{
+    width:19.8vw;
+    background: chocolate;
+    text-align: center;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3px 1px;
+    border-radius:4px;
+ }
